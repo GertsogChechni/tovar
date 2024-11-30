@@ -1,0 +1,426 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+}
+
+.stock {
+background-color: white;
+width: 350px;
+height: 434px;
+gap: 0px;
+border-radius: 19px;
+opacity: 0px;
+angle: 0 deg;
+
+}
+.keyimg {
+
+}
+.key {
+    display: flex;
+    justify-content: center;
+}
+.one {
+    //styleName: title;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 254px
+}
+.two {
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-right: 152px;
+color: #808080;
+}
+.low {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.irems{
+    //styleName: new price;
+font-family: Rubik;
+font-size: 43px;
+font-weight: 800;
+line-height: 51.6px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #941B0C;
+
+}
+
+.irem {
+    //styleName: old price;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: right;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.discount {
+    background-color: black;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    border-radius: 15px;
+}
+.discounts {
+width: 45px;
+height: 31px;
+top: 375px;
+left: 28px;
+gap: 0px;
+opacity: 0px;
+}
+.stock {
+background-color: white;
+width: 350px;
+height: 434px;
+gap: 0px;
+border-radius: 19px;
+opacity: 0px;
+angle: 0 deg;
+
+}
+.keyimg {
+
+}
+.key {
+    display: flex;
+    justify-content: center;
+}
+.one {
+    //styleName: title;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 254px
+}
+.two {
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-right: 152px;
+color: #808080;
+}
+.low {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.irems{
+    //styleName: new price;
+font-family: Rubik;
+font-size: 43px;
+font-weight: 800;
+line-height: 51.6px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #941B0C;
+
+}
+
+.irem {
+    //styleName: old price;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: right;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.discount {
+    background-color: black;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    border-radius: 15px;
+}
+.discounts {
+width: 45px;
+height: 31px;
+top: 375px;
+left: 28px;
+gap: 0px;
+opacity: 0px;
+}
+
+
+
+.keyimg {
+
+}
+.ke1y {
+display: flex;
+justify-content: center;
+}
+.on1e {
+
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 254px
+}
+.tw1o {
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-right: 152px;
+color: #808080;
+}
+.lo1w {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-right: 40px;
+}
+.tex1t {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.irem1s{
+//styleName: new price;
+font-family: Rubik;
+font-size: 43px;
+font-weight: 800;
+line-height: 51.6px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #941B0C;
+
+}
+
+.ire1m {
+    //styleName: old price;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: right;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.discoun1t {
+background-color: black;
+width: 110px;
+height: 110px;
+display: flex;
+justify-content: center; 
+align-items: center;    
+border-radius: 15px;
+}
+.discount1s {
+width: 45px;
+height: 31px;
+top: 375px;
+left: 28px;
+gap: 0px;
+opacity: 0px;
+}
+
+.stoc1k {
+    background-color: #FFD100;
+width: 350px;
+height: 434px;
+gap: 0px;
+border-radius: 19px;
+opacity: 0px;
+margin-left: 30px;
+}
+
+.keyim1g {
+stroke-dasharray: 0%;
+}
+.ke1y {
+display: flex;
+justify-content: center;
+}
+.on1e {
+       //styleName: title;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 254px
+}
+.tw1o {
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-right: 152px;
+color: #808080;
+}
+.lo1w {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-right: 40px;
+}
+.tex1t {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.irem1s{
+
+font-family: Rubik;
+font-size: 43px;
+font-weight: 800;
+line-height: 51.6px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #941B0C;
+
+}
+
+.ire1m {
+       //styleName: old price;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: right;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.discoun1t {
+background-color: black;
+width: 110px;
+height: 110px;
+display: flex;
+justify-content: center; 
+align-items: center;    
+border-radius: 15px;
+}
+.discount1s {
+width: 45px;
+height: 31px;
+top: 375px;
+left: 28px;
+gap: 0px;
+opacity: 0px;
+}
+.wraper {
+    display: flex;
+    padding-top: 48px;
+}
+.skidkaaa {
+    position: absolute;
+    top: 36px; 
+    right: 0px;
+    left: 366px;
+    bottom: 0px;
+}
